@@ -25,5 +25,5 @@ const data1 = [
   [7, 8, 9],
 ];
 
-console.log(solution(data));
-console.log(solution(data1));
+console.log(solution(data)); // output = 2
+console.log(solution(data1)); // output = 9
