@@ -114,10 +114,11 @@ const App = ({ className }) => {
               className="form-control"
               value={phone}
               onChange={(e) => {
-                const value = e.target.value;
-                if (/^\*$/.test(value)) {
-                  setPhone(value);
-                }
+                // const value = e.target.value;
+                // if (/^\*$/.test(value)) {
+                //   setPhone(value);
+                // }
+                setPhone(e.target.value);
               }}
             />
           </div>
